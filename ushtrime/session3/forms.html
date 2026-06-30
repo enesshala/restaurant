@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <h1>Forms in HTML</h1>
+
+        <!-- Methods in forms -->
+        <form method="POST">
+            <label for="fullname"> Emri dhe mbiemri </label>
+            <input
+                type="text"
+                placeholder="Emri dhe mbiemri"
+                name="fullname"
+                id="fullname"
+                required
+            />
+            <p>Ju lutem plostesoni te vleren sipas rregullave...</p>
+            <br />
+            <br />
+            <input
+                type="password"
+                placeholder="Fjalekalimi"
+                name="password"
+                required
+            />
+
+            <br />
+            <br />
+
+            <textarea></textarea>
+
+            <br />
+            <br />
+
+            <label for="cars">Choose a car:</label>
+
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+
+            <!-- Button vs Submit type -->
+            <button type="submit">Login</button>
+        </form>
+    </body>
+</html>
